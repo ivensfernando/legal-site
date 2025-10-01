@@ -1,164 +1,222 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Jonathan Stephan - Advocacia e Consultoria | Strategic Legal Counsel</title>
-  <meta name="description" content="Atuação estratégica em Direito Empresarial, Contratos, Contencioso e Consultoria. Atendimento personalizado com foco em resultados." />
-  <meta name="theme-color" content="#0f172a" />
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Jonathan Stephan — Strategic Legal Counsel</title>
+  <meta name="description" content="Strategic legal counsel for modern business: litigation, tax, contracts, compliance, and technology law. Cross‑border expertise. Multilingual."/>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css"/>
 </head>
 <body>
   <header class="site-header">
     <div class="container header-wrap">
-      <a class="brand" href="#top" aria-label="Página inicial">
-        <img src="./assets/scale.svg" alt="" width="28" height="28" />
-        <span>Jonathan&nbsp;Stephan</span>
+      <a class="brand" href="#top" aria-label="Home">
+        <span class="logo">JS</span>
+        <span class="brand-text">Jonathan Stephan</span>
       </a>
-      <nav class="nav">
-        <a href="#servicos">Serviços</a>
-        <a href="#atuacao">Áreas</a>
-        <a href="#sobre">Sobre</a>
-        <a href="#faq">FAQ</a>
-        <a class="btn small" href="#contato">Contato</a>
+      <nav class="nav" id="mainNav">
+        <a href="#about">About</a>
+        <a href="#expertise">Expertise</a>
+        <a href="#case-study">Case Study</a>
+        <a href="#contact" class="btn small ghost">Contact</a>
       </nav>
-      <button id="menuBtn" class="menu-btn" aria-label="Abrir menu">☰</button>
+      <button id="menuBtn" class="menu-btn" aria-label="Open menu">☰</button>
     </div>
   </header>
 
   <main id="top">
-    <section class="hero">
+    <!-- HERO -->
+    <section class="hero" id="about" aria-label="Hero">
+      <div class="hero-bg" role="img" aria-label="Office background"></div>
       <div class="container hero-grid">
-        <div class="hero-copy">
-          <h1>Advocacia e Consultoria<br><span class="accent">Estratégica</span> para seu negócio</h1>
-          <p>Atuação focada em resultados em Direito Empresarial, Contratos e Contencioso, com aconselhamento claro e executável.</p>
-          <div class="cta-row">
-            <a class="btn" href="#contato">Agendar consulta</a>
-            <a class="btn ghost" href="#servicos">Ver serviços</a>
+        <figure class="portrait">
+          <img src="assets/jonathan-stephan-portrait-0BJG19f3.png" alt="Jonathan Stephan" loading="eager" />
+        </figure>
+
+        <div class="copy">
+          <h1>Jonathan Stephan</h1>
+          <p class="subtitle">Legal Counsel & Advisory</p>
+          <p class="lead">
+            Strategic cross-border legal counsel in litigation, tax, contracts, compliance, and technology law.
+            Delivering results-oriented solutions for international business operations.
+          </p>
+
+          <div class="actions">
+            <a class="btn" href="#expertise">Explore Services</a>
+            <a class="btn ghost" href="#contact">Get in Touch</a>
           </div>
-          <ul class="trust-list" aria-label="Diferenciais">
-            <li>Resposta em até 24h úteis</li>
-            <li>Atuação preventiva e contenciosa</li>
-            <li>Atendimento em PT/EN</li>
-          </ul>
         </div>
-        <div class="hero-card" role="img" aria-label="Consultoria jurídica estratégica">
-          <div class="card-badge">OAB • Corporate</div>
-          <div class="card-body">
-            <h3>Strategic Legal Counsel</h3>
-            <p>Estruturação contratual, gestão de riscos e resolução de disputas com foco no impacto de negócio.</p>
+      </div>
+    </section>
+
+    <!-- EXPERTISE -->
+    <section class="section" id="expertise">
+      <div class="container">
+        <header class="section-head">
+          <h2>Areas of Expertise</h2>
+          <p>Comprehensive legal services tailored for international business operations, technology companies, and cross‑border transactions.</p>
+        </header>
+
+        <div class="grid-3">
+          <article class="card">
+            <h3>Litigation & Petitions</h3>
+            <p>Strategic litigation management with a focus on successful outcomes and efficient resolution.</p>
             <ul>
-              <li>Due diligence e contratos</li>
-              <li>Contencioso cível & empresarial</li>
-              <li>Negociação e mediação</li>
+              <li>Complex commercial disputes</li>
+              <li>Administrative proceedings</li>
+              <li>Appeals and motions</li>
+              <li>Settlement negotiations</li>
             </ul>
+          </article>
+          <article class="card">
+            <h3>Tax Law & Strategy</h3>
+            <p>Comprehensive tax planning and compliance solutions for domestic and international operations.</p>
+            <ul>
+              <li>International tax optimization</li>
+              <li>Transfer pricing</li>
+              <li>Tax dispute resolution</li>
+              <li>Compliance frameworks</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>International Contracts</h3>
+            <p>Cross‑border contract drafting and negotiation with multi‑jurisdiction expertise.</p>
+            <ul>
+              <li>Multi‑jurisdictional agreements</li>
+              <li>Risk allocation strategies</li>
+              <li>Dispute resolution clauses</li>
+              <li>Regulatory compliance</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Compliance & Risk</h3>
+            <p>Proactive programs that adapt to evolving regulations while maintaining operational efficiency.</p>
+            <ul>
+              <li>Regulatory risk assessment</li>
+              <li>EU compliance frameworks</li>
+              <li>Corporate governance</li>
+              <li>Policy development</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Digital Law & Technology</h3>
+            <p>Cutting‑edge counsel for blockchain, cybersecurity, and emerging technology implementations.</p>
+            <ul>
+              <li>Blockchain regulations</li>
+              <li>Data protection (LGPD/GDPR)</li>
+              <li>Cybersecurity compliance</li>
+              <li>Tech innovation law</li>
+            </ul>
+          </article>
+          <article class="card highlight">
+            <h3>Multilingual & Global Reach</h3>
+            <p>Portuguese (native), English (professional), and intermediate French to support global communications.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CASE STUDY -->
+    <section class="section alt" id="case-study">
+      <div class="container">
+        <header class="section-head">
+          <h2>Case Study: International Tax Optimization</h2>
+          <p>How strategic cross‑border planning reduced a European company’s effective tax rate while maintaining regulatory compliance.</p>
+        </header>
+        <div class="case-grid">
+          <article class="card wide">
+            <span class="chip">Cross‑Border Strategy</span>
+            <h3>The Challenge</h3>
+            <p>During the pandemic, a European technology company faced significant operational challenges with an effective tax rate of approximately 20%. They needed to maintain EU compliance while optimizing their tax structure for sustainable growth.</p>
+            <h4>Strategic Approach</h4>
+            <ul>
+              <li>Comprehensive analysis of EU regulatory frameworks</li>
+              <li>Development of compliant tax‑efficient structure</li>
+              <li>Implementation of cross‑border optimization strategies</li>
+              <li>Ongoing compliance monitoring and adjustments</li>
+            </ul>
+          </article>
+          <aside class="results">
+            <div class="result-card">~20% ➜ <strong>~5%</strong><br/><span>≈ 75% Tax Reduction</span></div>
+            <div class="result-card">✅ EU Compliant<br/><span>Full regulatory compliance maintained</span></div>
+            <div class="result-card">🌐 Cross‑Border<br/><span>Multi‑jurisdiction optimization</span></div>
+            <div class="result-card">⭐ Key Outcome<br/><span>Significant tax savings with a sustainable framework for growth</span></div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION & METHODS -->
+    <section class="section" id="education">
+      <div class="container dual">
+        <div>
+          <h2>Ongoing Education & Credentials</h2>
+          <p>Continuous learning ensures cutting‑edge expertise in evolving legal landscapes and emerging technologies.</p>
+          <ul class="list-cards">
+            <li class="list-card"><strong>Yale University</strong><span>American Contract Law I — Professional Certification</span></li>
+            <li class="list-card"><strong>Harvard University (HarvardX)</strong><span>Contract Law — Professional Development</span></li>
+            <li class="list-card"><strong>Amazon Web Services (AWS)</strong><span>Security, Compliance & Governance for AI — Technical Certification</span></li>
+            <li class="list-card"><strong>London, England</strong><span>English Language Training — Language Proficiency</span></li>
+          </ul>
+        </div>
+        <div>
+          <h2>Approach & Methods</h2>
+          <p>A pragmatic, results‑oriented methodology that balances legal rigor with business practicality.</p>
+          <ul class="bullet-cards">
+            <li><strong>Risk Adaptation</strong><br/>Strategies tailored to meet EU standards while preserving flexibility.</li>
+            <li><strong>Business Clarity</strong><br/>Translating complex requirements into clear, actionable guidance.</li>
+            <li><strong>Protection Without Impediment</strong><br/>Ensuring legal protection never slows innovation or growth.</li>
+            <li><strong>International Perspective</strong><br/>Expertise to navigate multi‑jurisdictional challenges effectively.</li>
+          </ul>
+          <div class="cta-panel">
+            <div class="cta-panel-body">
+              <div class="icon">📘</div>
+              <div>
+                <h3>Available for Consultation</h3>
+                <p>Remote and on‑site consultations. Combining international perspective with local expertise for comprehensive legal solutions.</p>
+              </div>
+              <a href="#contact" class="btn ghost">Schedule</a>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
-    <section id="servicos" class="section">
-      <div class="container">
-        <h2>Serviços</h2>
-        <div class="cards grid-3">
-          <article class="card">
-            <h3>Contratos & Negociações</h3>
-            <p>Redação, revisão e negociação de contratos comerciais, SaaS, distribuição, parcerias e NDAs.</p>
-          </article>
-          <article class="card">
-            <h3>Consultoria Empresarial</h3>
-            <p>Estrutura societária, governança, compliance e políticas internas alinhadas a objetivos estratégicos.</p>
-          </article>
-          <article class="card">
-            <h3>Contencioso Estratégico</h3>
-            <p>Gestão de disputas com mapeamento de risco, estratégia probatória e foco em acordos vantajosos.</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section id="atuacao" class="section alt">
-      <div class="container">
-        <h2>Áreas de Atuação</h2>
-        <div class="pill-row">
-          <span class="pill">Direito Empresarial</span>
-          <span class="pill">Contratos</span>
-          <span class="pill">Societário</span>
-          <span class="pill">Propriedade Intelectual</span>
-          <span class="pill">Tecnologia & Startups</span>
-          <span class="pill">Contencioso Cível</span>
-        </div>
-      </div>
-    </section>
-
-    <section id="sobre" class="section">
-      <div class="container two-col">
+    <!-- CONTACT -->
+    <section class="section contact" id="contact">
+      <div class="container contact-grid">
         <div>
-          <h2>Sobre Jonathan Stephan</h2>
-          <p>Advogado com experiência em consultoria estratégica e contencioso empresarial. Atuação próxima de executivos e times de produto para decisões jurídicas ágeis e bem embasadas.</p>
-          <ul class="checklist">
-            <li>Atendimento personalizado e pragmático</li>
-            <li>Foco em mitigação de riscos e geração de valor</li>
-            <li>Alinhamento com metas de negócio</li>
-          </ul>
-        </div>
-        <div class="profile">
-          <img src="./assets/jonathan-stephan-portrait-0BJG19f3.png" alt="Retrato ilustrativo" width="360" height="360" />
-        </div>
-      </div>
-    </section>
-
-    <section class="section alt" id="faq">
-      <div class="container">
-        <h2>Perguntas Frequentes</h2>
-        <details>
-          <summary>Como funciona a consulta inicial?</summary>
-          <p>Uma chamada de 30–45 minutos para entender o contexto, mapear riscos e definir próximos passos.</p>
-        </details>
-        <details>
-          <summary>Atende empresas fora do Brasil/Portugal?</summary>
-          <p>Sim, com escopo contratual claro e parceiros locais quando necessário.</p>
-        </details>
-        <details>
-          <summary>Qual o prazo de retorno?</summary>
-          <p>Geralmente em até 24h úteis, dependendo da complexidade.</p>
-        </details>
-      </div>
-    </section>
-
-    <section id="contato" class="section contact">
-      <div class="container two-col">
-        <div>
-          <h2>Contato</h2>
-          <p>Preencha o formulário e retornaremos em breve.</p>
+          <h2>Ready to Get Started?</h2>
+          <p>Let’s discuss how strategic legal counsel can protect and advance your business interests.</p>
           <form id="contactForm" class="form" method="post" action="">
-            <label>Nome
-              <input type="text" name="name" required placeholder="Seu nome" />
+            <label>Name
+              <input type="text" name="name" required placeholder="Your name"/>
             </label>
-            <label>E‑mail
-              <input type="email" name="email" required placeholder="voce@empresa.com" />
+            <label>Email
+              <input type="email" name="email" required placeholder="you@company.com"/>
             </label>
-            <label>Assunto
-              <input type="text" name="subject" placeholder="Tema da consulta" />
+            <label>Subject
+              <input type="text" name="subject" placeholder="Topic"/>
             </label>
-            <label>Mensagem
-              <textarea name="message" rows="5" required placeholder="Conte brevemente seu caso"></textarea>
+            <label>Message
+              <textarea name="message" rows="5" required placeholder="Briefly describe your case"></textarea>
             </label>
-            <button class="btn" type="submit">Enviar</button>
-            <p class="form-note">Dica: você pode trocar a <code>action</code> para um serviço como Formspree ou sua API.</p>
+            <button class="btn" type="submit">Send</button>
+            <p class="form-note">Tip: set the <code>action</code> to Formspree, Netlify Forms, or your API.</p>
           </form>
         </div>
         <aside class="contact-card">
-          <h3>Atendimento</h3>
+          <h3>Get in Touch</h3>
           <ul>
-            <li>Lisboa • São Paulo (remoto / presencial sob demanda)</li>
-            <li>Horário: 9h–18h (WET/BRT)</li>
-            <li>E‑mail: contato@exemplo.com</li>
+            <li>✉️ contact@jonathanstephan.law</li>
+            <li>📞 +55 (11) 9 9999‑9999</li>
+            <li>📍 São Paulo, Brazil</li>
+            <li>🕘 Availability: Remote & On‑site</li>
           </ul>
-          <a class="btn ghost" href="mailto:contato@exemplo.com">Enviar e‑mail</a>
+          <a class="btn ghost" href="mailto:contact@jonathanstephan.law">Email</a>
         </aside>
       </div>
     </section>
@@ -166,8 +224,14 @@
 
   <footer class="site-footer">
     <div class="container footer-wrap">
-      <p>© <span id="year"></span> Jonathan Stephan — Advocacia e Consultoria</p>
-      <a class="edit" href="#" aria-label="Editar">Feito com ♥ — pronto para Vercel/Netlify</a>
+      <div class="foot-left">
+        <span class="logo small">JS</span>
+        <span>Jonathan Stephan</span>
+      </div>
+      <div class="foot-right">
+        <span>⚖️ OAB/SP 379.172</span>
+        <span>São Paulo, Brazil</span>
+      </div>
     </div>
   </footer>
 
