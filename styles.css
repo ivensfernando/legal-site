@@ -206,7 +206,7 @@ html { scroll-behavior: smooth; } /*  */
   position: absolute;
   inset: 0;
   /* 1) Imagem de fundo */
-  background-image: url("assets/office.png");   /* <--- seu arquivo */
+  background-image: url("assets/officeW.png");   /* <--- seu arquivo */
   /* Alternativa com formatos modernos:
   background-image: image-set(
     "assets/office.avif" type("image/avif") 1x,
